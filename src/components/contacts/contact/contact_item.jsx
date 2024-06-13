@@ -6,7 +6,7 @@ export const ContactItem = ({ contact }) => {
   const dispatch = useDispatch();
 
   const deleleContactComponent = id => {
-    dispatch(deleteContactAsync());
+    dispatch(deleteContactAsync(id));
   };
 
   return (
